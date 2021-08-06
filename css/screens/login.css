@@ -37,7 +37,7 @@
     border-radius:5px;
 }
 #login-form input::placeholder{
-    color:rgba(0,0,0,0.4);
+    color:var(--main-gray-color);
 }
 #login-form input:focus{
     border-color:var(--yellow);
