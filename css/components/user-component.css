@@ -48,3 +48,6 @@
     margin-bottom:10px;
     display:block;
 }
+.user-component__introduce i{
+    color:#FF6F5F;
+}
