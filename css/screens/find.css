@@ -95,3 +95,20 @@
     margin-left:4px;
     margin-bottom:2px;
 }
+
+@keyframes heartBeat{
+    0%{
+        color:white;
+        transform: none;
+    }
+    50%{
+        color:tomato;
+        transform: scale(2);
+    }
+    100%{
+        color:white;
+        transform: none;
+    }
+}
+.open-post__heart-count:hover i{
+    animation:heartBeat 1s linear infinite;
